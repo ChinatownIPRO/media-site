@@ -16,16 +16,16 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
         mapTypeId: 'hybrid',
       });
 
-     
+
       var pingtom = new google.maps.Marker ({
             position: {lat: 41.857297, lng: -87.634385},
             map: map,
             title: 'Ping Tom Memorial Park',
-            icon : 'Images/pinghut.png',
+            icon : 'visual/pinghut.png',
             animation: google.maps.Animation.DROP,
 			});
 
-      
+
       var pingtomMarker = new google.maps.InfoWindow({
           content: pingtomIcon
           });
@@ -42,11 +42,11 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
             position: {lat: 41.851330, lng: -87.633529},
             map: map,
             title: 'Chinese American Museum of Chicago',
-            icon : 'Images/dragon1.png',
+            icon : 'visual/dragon1.png',
             animation: google.maps.Animation.BOUNCE,
 			});
 
-      
+
       var CAMoCMarker = new google.maps.InfoWindow({
           content: CAMoCIcon
           });
@@ -62,11 +62,11 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
             position: {lat: 41.853844, lng: -87.632182},
             map: map,
             title: 'Chinatown Public Library',
-            icon : 'Images/books.png',
+            icon : 'visual/books.png',
             animation: google.maps.Animation.DROP,
       });
 
-      
+
       var libraryMarker = new google.maps.InfoWindow({
           content: libraryIcon
           });
@@ -79,4 +79,3 @@ var libraryIcon = '<h3>Chinatown Public Library</h3><p>Come visit the library fo
 
 
         }
-
